@@ -181,7 +181,7 @@ export const StatHeading = styled.h1`
     text-align:center;
     margin-bottom: .5em;
     @media (max-width:900px){
-        font-size: 2.5rem;
+        font-size: 2.2rem;
     }
 `; 
 export const StatDesc = styled.p`
@@ -204,9 +204,9 @@ export const CardContainer = styled.div`
     flex-wrap: wrap;
     align-items: baseline;
     position: relative;
-    @media (max-width:900px){
+    @media (max-width:1100px){
         width: 90%;
-       flex-direction: column;
+        flex-direction: column;
     }   
 
     &::after{
@@ -218,7 +218,7 @@ export const CardContainer = styled.div`
         transform: translate(-50%,-50%);
         top: 50%;
         left: 50%;
-        @media (max-width:900px){
+        @media (max-width:1100px){
             width: 10px;
             height: 90%;
         }   

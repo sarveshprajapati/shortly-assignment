@@ -22,7 +22,7 @@ function Featured() {
     const [fetching,setFetching]=useState(false);
    
     const formHandler = async (e)=>{
-        
+        setErr('');
         e.preventDefault();
         if(!inputText){
             return setErr('Please enter a valid link');
@@ -44,7 +44,7 @@ function Featured() {
                 console.log(links);
             }).catch(err=>{
                 setErr('Something error! Try other link');
-                setFetching(false)
+                setFetching(false);
             })
         }
 
