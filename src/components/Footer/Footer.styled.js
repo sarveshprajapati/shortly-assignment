@@ -64,7 +64,7 @@ export const SocialSection = styled.div`
 `;
 export const SocialLink = styled(Link)`
     img{
-        margin:0 1em;
+        margin:0 0.5em;
     }
     
 `;
